@@ -53,7 +53,7 @@
 }
 header {
   background-image: url(./Elements/Image\ 10.png);
-  background-size: 1380px 350px;
+  background-size: 100% 350px;
   height: 350px;
   display: flex;
   position: relative;
