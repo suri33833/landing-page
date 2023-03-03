@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+}
+
+.head {
+  display: flex;
+  height: 60px;
+}
+.head img {
+  width: 80px;
+  margin-left: 80px;
+}
+
+.head #mail,
+#contact {
+  margin-top: 16px;
+}
+.head #mail {
+  margin-left: 64%;
+}
+.head h6 {
+  padding-left: 40px;
+}
+.navbar {
+  background-color: rgb(23, 23, 124);
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  padding: 4px;
+}
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 4px;
+}
+.navbar button {
+  float: right;
+  margin-right: 100px;
+  border-radius: 10px;
+  background-color: orange;
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+}
+.navbar button:hover {
+  background-color: orangered;
+}
+header {
+  background-image: url(./Elements/Image\ 10.png);
+  background-size: 1380px 350px;
+  height: 350px;
+  display: flex;
+  position: relative;
+}
+@keyframes mymove {
+  from,
+  to {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+}
+.header--text {
+  color: white;
+  /* background-color: pink; */
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.header--text h5 {
+  background-color: orange;
+  width: 320px;
+  padding: 5px;
+  font-size: 15px;
+}
+.header--text h4 {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  width: 120px;
+  padding: 5px;
+  text-align: center;
+}
+.header--text .text {
+  margin-top: 8px;
+}
+.header--imgs {
+  position: relative;
+  left: 300px;
+  /* background-color: aqua; */
+  height: 400px;
+  width: 400px;
+}
+#headerImg1 {
+  animation: mymove 4s infinite;
+  position: relative;
+  width: 150px;
+  top: 60px;
+  left: 80px;
+}
+#headerImg2 {
+  animation: mymove 3s infinite;
+  width: 60px;
+  position: relative;
+  right: 150px;
+  top: 130px;
+}
+#headerImg3 {
+  animation: mymove 5s infinite;
+  position: relative;
+  width: 60px;
+  right: 150px;
+  top: 130px;
+}
+#headerImg4 {
+  animation: mymove 2s infinite;
+  position: relative;
+  width: 60px;
+  right: 100px;
+  top: 100px;
+}
+#headerImg5 {
+  animation: mymove 1.5s infinite;
+  position: relative;
+  width: 60px;
+  bottom: 160px;
+  left: 170px;
+}
+#headerImg6 {
+  animation: mymove 4s infinite;
+  width: 30px;
+  position: relative;
+  bottom: 150px;
+  left: 40px;
+}
