@@ -4,62 +4,183 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <title>AI-New Era</title>
   </head>
   <body>
-    <div class="main">
-      <div class="head">
-        <img src="./Elements/manma_png.png" />
-          <div id="mail">
-            <h5>
-              <span class="material-symbols-outlined"> mail </span> Mail Us
-              Today
-            </h3>
-            <h6>contact@manmaservices.com</h6>
+    <div class="navbar">
+      <div class="logo">
+        <ul class="nav-list hidden-item">
+          <div class="logo-img">
+            <img src="./images/logo1.jpg" alt="logo" />
           </div>
-          <div id="contact">
-            <h5>
-              <span class="material-symbols-outlined "> phone_in_talk </span>Call
-              Us more Details
-            </h5>
-            <h6>+91-8929825255</h6>
-          </div>
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact-Us</a></li>
+        </ul>
       </div>
-      <div class="navbar">
-        <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Products</a>
-        <a href="/">Careers</a>
-        <a href="/">Blog</a>
-        <a href="/">Contact</a>
-        <button>Enquire Now</button>
+      <div class="right-nav hidden-item">
+        <input required type="text" placeholder="Enter somthing..." />
+        <button class="btn" type="submit">Search</button>
       </div>
-        <header>
-          <div class="header--text">
-            <h1 class="text">An Indian</h1>
-            <h1 class="text">Digital Marketing Agency</h1>
-            <h5 class="text">With global edge helping bussinesses grow online</h5>
-            <h4 class="text">Discover More</h4>
-          </div>
-          <div class="header--imgs">
-            <img  id="headerImg1" src="./Elements/thumb_1.png" />
-            <img  id="headerImg2" src="./Elements/thumb_2.png" />
-            <img  id="headerImg3" src="./Elements/thumb_3.png" />
-            <img  id="headerImg4" src="./Elements/thumb_4.png" />
-            <img  id="headerImg5" src="./Elements/thumb_5.png" />
-              <img  id="headerImg6" src="./Elements/thumb_6.png" />
-          </div>
-        </header>
-      <div class="center1">
-        <div></div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-      <div class="footer"></div>
     </div>
-    <script src="./script.js"></script>
+    <section class="background section section-1">
+      <div class="sub-section">
+        <div class="first-section">
+          <p class="text-lg">AI The New Era Of Technology</p>
+          <p class="text-sm">
+            Artificial intelligence(AI),the ability of a digital computer or
+            computer-controlled robot to perform tasks commonly associated with
+            intelligent beings.It is going highlighted because of their future
+            scope.
+          </p>
+          <div class="section-btn">
+            <a
+              href="https://en.wikipedia.org/wiki/Artificial_intelligence"
+              target="_blank"
+              ><button class="btn">AI Wiki</button></a
+            >
+            <a
+              href="https://en.wikipedia.org/wiki/Artificial_intelligence"
+              target="_blank"
+              ><button class="btn">Watch More</button></a
+            >
+          </div>
+        </div>
+        <div class="second-section">
+          <img src="./images/logo2.jpg" alt="logo" />
+        </div>
+      </div>
+    </section>
+    <section class="section section-4">
+      <div class="first-section first-section-4">
+        <p class="text-lg">AI in cybersecurity</p>
+        <p class="text-sm">
+          This year the World Economic Forum identified cybercrime as
+          potentially posing a more significant risk to society than terrorism.
+          As machines take over more of our lives, hacking and cybercrime
+          inevitably become more of a problem, as every connected device you add
+          to a network is inevitably a potential point-of-failure that an
+          attacker could use against you. As networks of connected devices
+          become more complex, identifying those points of failure becomes more
+          complex. This is where AI can play a role, though. By analyzing
+          network traffic and learning to recognize patterns that suggest
+          nefarious intentions, smart algorithms are increasingly playing a role
+          in keeping us safe from 21st-century crime. Some of the most
+          significant applications of AI that we will see develop in 2022 are
+          likely to be in this area.
+        </p>
+      </div>
+      <div class="second-section second-section-4">
+        <img src="./images/logo3.jpg" alt="logo" />
+      </div>
+    </section>
+    <section class="section section-4">
+      <div class="first-section first-section-4">
+        <p class="text-lg">Creative AI</p>
+        <p class="text-sm">
+          We know that AI can be used to create art, music, poetry, plays, and
+          even video games. In 2022, as new models such as GPT-4 and Google’s
+          Brain redefine the boundaries of what’s possible, we can expect more
+          elaborate and seemingly “natural” creative output from our
+          increasingly imaginative and capable electronic friends. Rather than
+          these creations generally being demonstrations or experiments to show
+          off the potential of AI, as is the case now, in 2022, we will
+          increasingly see them applied to routine creative tasks, such as
+          writing headlines for articles and newsletters, designing logos and
+          infographics. Creativity is often seen as a very human skill, and the
+          fact we are now seeing these capabilities emerging in machines means
+          “artificial” intelligence is undeniably coming closer in terms of
+          scope and function to the somewhat nebulous concept we have of what
+          constitutes “real” intelligence.
+        </p>
+      </div>
+      <div class="second-section second-section-4">
+        <img src="./images/logo4.jpg" alt="logo" />
+      </div>
+    </section>
+    <section class="section section-4">
+      <div class="first-section first-section-4">
+        <p class="text-lg">The augmented workforce</p>
+        <p class="text-sm">
+          There have always been fears that machines or robots will replace
+          human workers and maybe even make some roles redundant. However, as
+          companies navigate the process of creating data and AI-literate
+          cultures within their teams, we will increasingly find ourselves
+          working with or alongside machines that use smart and cognitive
+          functionality to boost our own abilities and skills. In some
+          functions, such as marketing, we’re already used to using tools that
+          help us determine which leads are worth pursuing and what value we can
+          expect from potential customers. In engineering roles, AI tools help
+          us by providing predictive maintenance – letting us know ahead of time
+          when machines will need servicing or repairing. In knowledge
+          industries, such as law, we will increasingly use tools that help us
+          sort through the ever-growing amount of data that's available to find
+          the nuggets of information that we need for a particular task. In just
+          about every occupation, smart tools and services are emerging that can
+          help us do our jobs more efficiently, and in 2022 more of us will find
+          that they are a part of our everyday working lives.
+        </p>
+      </div>
+      <div class="second-section second-section-4">
+        <img src="./images/logo5.jpg" alt="logo" />
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Our Team</h2>
+      <div class="form-area">
+        <form class="form" onsubmit="return false">
+          <input
+            required
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Enter First Name"
+          />
+          <input
+            required
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Enter Last Name"
+          />
+          <input
+            required
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email"
+          />
+          <input
+            required
+            type="text"
+            name="contact"
+            id="contact"
+            placeholder="Enter contact number"
+          />
+          <input
+            required
+            type="number"
+            name="age"
+            id="age"
+            placeholder="Enter your age"
+          />
+          <button class="btn btn-form" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div>
+        Copyright &copy; 2023 Artificial Intelligence Inc. All rights reserved
+      </div>
+    </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
