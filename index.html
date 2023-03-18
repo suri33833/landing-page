@@ -15,9 +15,9 @@
           <div class="logo-img">
             <img src="./images/logo1.jpg" alt="logo" />
           </div>
-          <li><a href="/">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#features">Features</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#cybersecurity">About</a></li>
+          <li><a href="#workforce">Features</a></li>
           <li><a href="#contact">Contact-Us</a></li>
         </ul>
       </div>
@@ -48,9 +48,9 @@
               ><button class="btn">AI Wiki</button></a
             >
             <a
-              href="https://en.wikipedia.org/wiki/Artificial_intelligence"
+              href="https://www.youtube.com/watch?v=iyb38dzetRk"
               target="_blank"
-              ><button class="btn">Watch More</button></a
+              ><button class="btn">Watch Video</button></a
             >
           </div>
         </div>
@@ -59,8 +59,8 @@
         </div>
       </div>
     </section>
-    <section class="section section-4">
-      <div class="first-section first-section-4">
+    <section class="section section-2" id="cybersecurity">
+      <div class="first-section first-section-2">
         <p class="text-lg">AI in cybersecurity</p>
         <p class="text-sm">
           This year the World Economic Forum identified cybercrime as
@@ -78,12 +78,12 @@
           likely to be in this area.
         </p>
       </div>
-      <div class="second-section second-section-4">
+      <div class="second-section second-section-2">
         <img src="./images/logo3.jpg" alt="logo" />
       </div>
     </section>
-    <section class="section section-4">
-      <div class="first-section first-section-4">
+    <section class="section section-3">
+      <div class="first-section first-section-3">
         <p class="text-lg">Creative AI</p>
         <p class="text-sm">
           We know that AI can be used to create art, music, poetry, plays, and
@@ -102,11 +102,11 @@
           constitutes “real” intelligence.
         </p>
       </div>
-      <div class="second-section second-section-4">
+      <div class="second-section second-section-3">
         <img src="./images/logo4.jpg" alt="logo" />
       </div>
     </section>
-    <section class="section section-4">
+    <section class="section section-4" id="workforce">
       <div class="first-section first-section-4">
         <p class="text-lg">The augmented workforce</p>
         <p class="text-sm">
@@ -136,7 +136,7 @@
     <section id="contact">
       <h2>Contact Our Team</h2>
       <div class="form-area">
-        <form class="form" onsubmit="return false">
+        <form class="form" onsubmit="submitForm() ; return false">
           <input
             required
             type="text"
@@ -161,8 +161,8 @@
           <input
             required
             type="text"
-            name="contact"
-            id="contact"
+            name="phone"
+            id="phone"
             placeholder="Enter contact number"
           />
           <input

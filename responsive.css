@@ -32,9 +32,13 @@
   .hidden-item {
     opacity: 0;
   }
+  .first-section {
+    width: 100%;
+  }
   .sub-section {
     flex-direction: column-reverse;
     align-items: center;
+    width: 100%;
   }
   .section-1 {
     height: 100%;
